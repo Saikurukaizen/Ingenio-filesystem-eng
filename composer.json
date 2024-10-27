@@ -1,0 +1,5 @@
+{
+    "require": {
+        "ingenio/filesystem": "dev-principal"
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "78478e715b004cf4534679e7aa0fe5e3",
+    "packages": [
+        {
+            "name": "ingenio/filesystem",
+            "version": "dev-principal",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ingenio-hosting/Ingenio-Filesystem.git",
+                "reference": "c4d4ad7605e70abb82b65733bdbc56404f3f86ee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ingenio-hosting/Ingenio-Filesystem/zipball/c4d4ad7605e70abb82b65733bdbc56404f3f86ee",
+                "reference": "c4d4ad7605e70abb82b65733bdbc56404f3f86ee",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Php\\Filesystem\\Filesystem\\": "src/php/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Toni Domenech",
+                    "email": "toni@ngenio.net"
+                },
+                {
+                    "name": "Marcos Sanchez",
+                    "email": "info@info.com"
+                }
+            ],
+            "description": "PHP & JS Filesystem Gest by Toni Domenech & Marc Sanchez",
+            "support": {
+                "issues": "https://github.com/ingenio-hosting/Ingenio-Filesystem/issues",
+                "source": "https://github.com/ingenio-hosting/Ingenio-Filesystem/tree/principal"
+            },
+            "time": "2024-10-15T02:21:04+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "ingenio/filesystem": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}

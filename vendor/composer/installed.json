@@ -1,0 +1,54 @@
+{
+    "packages": [
+        {
+            "name": "ingenio/filesystem",
+            "version": "dev-principal",
+            "version_normalized": "dev-principal",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ingenio-hosting/Ingenio-Filesystem.git",
+                "reference": "c4d4ad7605e70abb82b65733bdbc56404f3f86ee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ingenio-hosting/Ingenio-Filesystem/zipball/c4d4ad7605e70abb82b65733bdbc56404f3f86ee",
+                "reference": "c4d4ad7605e70abb82b65733bdbc56404f3f86ee",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "time": "2024-10-15T02:21:04+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Php\\Filesystem\\Filesystem\\": "src/php/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Toni Domenech",
+                    "email": "toni@ngenio.net"
+                },
+                {
+                    "name": "Marcos Sanchez",
+                    "email": "info@info.com"
+                }
+            ],
+            "description": "Gestior de files en PHP y JS by Toni Domenech & Marc Sanchez",
+            "support": {
+                "issues": "https://github.com/ingenio-hosting/Ingenio-Filesystem/issues",
+                "source": "https://github.com/ingenio-hosting/Ingenio-Filesystem/tree/principal"
+            },
+            "install-path": "../ingenio/filesystem"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
