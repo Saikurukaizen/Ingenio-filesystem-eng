@@ -95,7 +95,7 @@ class Filesystem{
         $this->setFormUpFile();
         $this->setFormSelectFile();
     }
-    public function setMetodAction($method,$action){
+    public function setMethodAction($method,$action){
         $this->$method = $method;
         $this->action = $action;
     }
